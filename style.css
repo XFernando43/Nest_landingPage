@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital@0;1&family=Inter:wght@100;200&family=Lobster&family=Poppins:wght@400;500;600&family=Roboto:wght@100;300&family=Rubik:ital@1&family=Source+Code+Pro:wght@300&family=Teko&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;   
+    font-weight: 700;
+    margin: 0px;
+}
+header{
+    background-image: url('https://d33wubrfki0l68.cloudfront.net/b48d3f70dffd76bf3152ad04e2cbb1261ef589c9/header.1af6756a.png');
+}
+.img-navbar{
+    max-width: 70px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+.navbar-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
