@@ -1,17 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital@0;1&family=Inter:wght@100;200&family=Lobster&family=Poppins:wght@400;500;600&family=Roboto:wght@100;300&family=Rubik:ital@1&family=Source+Code+Pro:wght@300&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital@0;1&family=Inter:wght@100;200&family=Lobster&family=Montserrat:wght@700&family=Poppins:wght@400;500;600&family=Roboto:wght@100;300&family=Rubik:ital@1&family=Source+Code+Pro:wght@300&family=Teko&display=swap');
 
 *{
-    font-family: 'Inter', sans-serif;   
+    font-family: 'Montserrat', sans-serif;   
     font-weight: 700;
     margin: 0px;
-    background-color: red;
+
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 header{
     background-image: url('https://d33wubrfki0l68.cloudfront.net/b48d3f70dffd76bf3152ad04e2cbb1261ef589c9/header.1af6756a.png');
+    height: 600px;
+    padding: 2rem;
 }
+
+/* buttoncito */
+.new-devtools{ 
+    background-color: red;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Montserrat',sans-serif;
+    padding: 3px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1380px;
+    margin-inline: auto;
+}
+
 .img-navbar{
     max-width: 70px;
 }
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    text-transform: uppercase;
+}
+
+.main-section{
+    max-width: 1090px;
+    margin-inline: auto;
+    color: white;
+}
+
+.button{
+    border-radius: 20px;
+    background-color: red;
+    border: none; 
+    padding: 10px 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* 
 .navbar{
     display: flex;
     justify-content: center;
@@ -26,6 +75,6 @@ header{
     font-style: normal;
     text-decoration: none;
     text-transform: uppercase;
-}
+} */
 
 
