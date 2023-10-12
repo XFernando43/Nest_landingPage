@@ -14,7 +14,7 @@ header{
     background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir el encabezado */
     background-attachment: fixed; /* Fija la imagen de fondo */
 
-    min-height: 700px;
+    min-height: 600px;
     padding: 2rem;
 }
 
@@ -133,6 +133,18 @@ header{
     justify-content: center;
     align-items: center;
     gap: 32px;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 360px;
+}
+
+.img-container{
+    text-align: center;
 }
 
 .img-item{
@@ -151,8 +163,9 @@ header{
 
 .item-text{
     font-size: 16px;
-    font-weight: 500;
-    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    font-family: Inter,sans-serif;
+    line-height: 1.8; 
 
 }
 
