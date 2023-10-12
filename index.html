@@ -5,6 +5,8 @@
     <title>NestJs-A progressive Node.js Framework</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="index.js"></script>
+
 </head>
 <body>
     <header>
@@ -24,32 +26,38 @@
             </ul>
         </nav>
 
-        <section class="main-section">
-            <h1>Hello, nest!</h1>
-            <p>A progressive Node.js framework for building efficient,
-             reliable and scalable server-side applications.</p>
-             <button class="button">Documentation</button>
-             <button class="button">
-                <i class="bi bi-github"></i>
-                Source Code
-            </button>
-        </section>
+        <section class="hero-section">
+            <div class="hero-container">
 
+                <!-- <h1>Hello, nest!</h1>
+
+                    <button class="button">Documentation</button>
+                    <button class="button">
+                        <i class="bi bi-github"></i>
+                        Source Code
+                    </button> -->
+
+                <h1 class="hero-title">Hello, nest!</h1>
+                <p class="text-hero">A progressive Node.js framework for building efficient,
+                    reliable and scalable server-side applications.</p>
+                
+                <button onclick="action()">Haz Algo</button>
+
+                <!-- <button class="button"> <i class="bi bi-github"></i> Source Code </button> -->
+
+            </div>
+        </section>
+    
+        
     </header>
+
+    <main>
+        <button onclick="action()">Haz Algo</button>
+        <button onclick="action()">Haz Algo</button>
+        <button onclick="action()">Haz Algo</button>
+
+    </main>
 </body>
-<script src="index.js"></script>
 </html>
 
 
-<!-- 
-    <ul class="navbar-list">
-                <li><a href="#">Documentation</a></li>
-                <li><a href="#">Enterprise</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">DevTools</a></li>
-                <li><a href="#"><i class="bi bi-github"></i></a></li>
-                <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
-                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-            </ul>
-
- -->
