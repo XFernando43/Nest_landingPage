@@ -11,7 +11,10 @@ a{
 }
 header{
     background-image: url('https://d33wubrfki0l68.cloudfront.net/b48d3f70dffd76bf3152ad04e2cbb1261ef589c9/header.1af6756a.png');
-    height: 600px;
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir el encabezado */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+
+    min-height: 700px;
     padding: 2rem;
 }
 
@@ -115,10 +118,25 @@ header{
 }
 
 .img-item{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    /* height: 50px; */
+    margin-inline: auto;
 }
 
+.item-title{
+    color: #ea2845;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.item-text{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat,sans-serif;
+
+}
 
 .open-source-section{
     background-color: #ea2845;
