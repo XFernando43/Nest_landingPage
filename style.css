@@ -82,11 +82,6 @@ header{
     gap: 48px;
 }
 
-.button-color-secondary{
-    background-color: transparent !important;
-    border: 2px solid white !important;
-}
-
 .button{
     border-radius: 20px;
     background-color: #ea2845;
@@ -98,6 +93,29 @@ header{
     max-width: 240px;
     height: 50px;
 }
+
+.button-secondary{
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid white; 
+    padding: 10px 20px;
+    color: white;
+    font-family: sans-serif;
+    min-width: 230px;
+    max-width: 240px;
+    height: 50px;
+}
+
+.button:hover{
+    background-color: transparent !important;
+}
+
+.button-secondary:hover{
+    color:#ea2845;
+    border: 2px solid #ea2845; 
+
+}
+
 
 .text-button{
     font-size: 16px;
